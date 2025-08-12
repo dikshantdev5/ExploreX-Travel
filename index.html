@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ExploreX — Travel Agency</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="logo">ExploreX</div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#destinations" class="nav-link">Destinations</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="wrap hero-content">
+      <h1>Discover the world with ExploreX</h1>
+      <p class="lead">Handcrafted tours • Best prices • Memorable experiences</p>
+      <div class="hero-cta">
+        <a href="#destinations" class="btn">Explore Destinations</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="wrap">
+        <h2 class="section-title">Our Services</h2>
+        <div class="cards services-grid">
+          <div class="card">
+            <h3>Flight Booking</h3>
+            <p>Find best flight deals and book instantly with flexible options.</p>
+          </div>
+          <div class="card">
+            <h3>Hotel Reservation</h3>
+            <p>Comfortable stays handpicked to match your travel style and budget.</p>
+          </div>
+          <div class="card">
+            <h3>Custom Tours</h3>
+            <p>Personalized tour plans — from weekend getaways to long adventures.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTINATIONS -->
+    <section id="destinations" class="section section-dark">
+      <div class="wrap">
+        <h2 class="section-title">Top Destinations</h2>
+
+        <div class="dest-grid">
+          <article class="dest-card" data-title="Paris, France" data-desc="Romantic streets, museums, and cuisine. Perfect for city lovers." data-img="https://picsum.photos/seed/paris/800/600">
+            <img src="https://picsum.photos/seed/paris/800/600" alt="Paris">
+            <div class="dest-info">
+              <h3>Paris</h3>
+              <p>France</p>
+              <button class="view-btn">View Details</button>
+            </div>
+          </article>
+
+          <article class="dest-card" data-title="Maldives" data-desc="Turquoise waters, overwater bungalows, and pure relaxation." data-img="https://picsum.photos/seed/maldives/800/600">
+            <img src="https://picsum.photos/seed/maldives/800/600" alt="Maldives">
+            <div class="dest-info">
+              <h3>Maldives</h3>
+              <p>Indian Ocean</p>
+              <button class="view-btn">View Details</button>
+            </div>
+          </article>
+
+          <article class="dest-card" data-title="Tokyo, Japan" data-desc="Futuristic cityscapes, amazing food scenes, and rich culture." data-img="https://picsum.photos/seed/tokyo/800/600">
+            <img src="https://picsum.photos/seed/tokyo/800/600" alt="Tokyo">
+            <div class="dest-info">
+              <h3>Tokyo</h3>
+              <p>Japan</p>
+              <button class="view-btn">View Details</button>
+            </div>
+          </article>
+
+          <article class="dest-card" data-title="Swiss Alps" data-desc="Snowy peaks, scenic hikes, and alpine charm." data-img="https://picsum.photos/seed/alps/800/600">
+            <img src="https://picsum.photos/seed/alps/800/600" alt="Swiss Alps">
+            <div class="dest-info">
+              <h3>Swiss Alps</h3>
+              <p>Switzerland</p>
+              <button class="view-btn">View Details</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="wrap contact-wrap">
+        <div class="contact-card">
+          <h2 class="section-title">Contact Us</h2>
+          <p>Send us a message and we’ll help you plan the perfect trip.</p>
+
+          <form id="contactForm" class="contact-form">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+            <p id="formMsg" class="form-msg" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <h3>Office</h3>
+          <p>ExploreX Travel Agency</p>
+          <p>Email: <a href="mailto:gaikwaddikshant55@gmail.com">gaikwaddikshant55@gmail.com</a></p>
+          <p>Phone: <a href="tel:+91827523XXXX">+91 82752XXXXX</a></p>
+          <p>Created by: Dikshant Gaikwad</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2025 ExploreX Travel Agency — Crafted with ♥ by Dikshant Gaikwad | 📧 <a href="mailto:gaikwaddikshant55@gmail.com">Email</a> | 📱 <a href="tel:+91827523XXXX">Call</a></p>
+    </div>
+  </footer>
+
+  <!-- Modal for destination details -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <img id="modalImg" src="" alt="" />
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
