@@ -16,31 +16,23 @@ The project aims to provide travelers with an engaging and user-friendly interfa
 - CSS3  
 - JavaScript (Vanilla JS)  
 
-## 📸 Screenshots  
+## 📸 Project Screenshots
 
-1️⃣ **Hero Background**  
-![Hero Background](images/hero.jpg)  
-🌐 Download: Click Here  
+1️⃣ **Home Page**  
+![Home Page](Output_1%20Home.png)
 
-2️⃣ **Destination 1**  
-![Destination 1](images/destination1.jpg)  
-🌐 Download: Click Here  
+2️⃣ **Services Page**  
+![Services Page](Output_2%20Services.png)
 
-3️⃣ **Destination 2**  
-![Destination 2](images/destination2.jpg)  
-🌐 Download: Click Here  
+3️⃣ **Destination 1**  
+![Destination 1](Output_3%20Destination1.png)
 
-4️⃣ **Destination 3**  
-![Destination 3](images/destination3.jpg)  
-🌐 Download: Click Here  
+4️⃣ **Destination 2**  
+![Destination 2](Output_4%20Destination2.png)
 
-5️⃣ **About Section Background**  
-![About Section Background](images/about.jpg)  
-🌐 Download: Click Here  
+5️⃣ **Contact Page**  
+![Contact Page](Output_5%20Contact.png)
 
-6️⃣ **Contact Section Background**  
-![Contact Section Background](images/contact-bg.jpg)  
-🌐 Download: Click Here  
 
 ## 📞 Contact  
 **Email:** gaikwaddikshant55@gmail.com  
